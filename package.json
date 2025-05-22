@@ -23,6 +23,7 @@
     "sharp": "^0.32.6"
   },
   "devDependencies": {
+    "@types/node": "^22.15.21",
     "checkly": "^4.2.0",
     "cypress": "13.3.2",
     "eslint": "8.51.0",
