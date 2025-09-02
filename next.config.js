@@ -10,7 +10,7 @@ const nextConfig = {
     return [
       {
         source: "/register",
-        destination: "https://bit.ly/sscc2425reg",
+        destination: "https://forms.gle/L2oJjeC9wcYsvzuBA",
         permanent: false,
       },
       {

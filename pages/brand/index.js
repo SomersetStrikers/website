@@ -26,7 +26,7 @@ const Page = () => {
             <p className="content has-text-centered">
               <a
                 className="button is-primary"
-                href="https://bit.ly/strikerslogos"
+                href="https://drive.google.com/drive/folders/1prDSBBrk-a_aXwPJ_SuvSxCu2D3NRsUn"
                 rel="noopener"
                 target="noopener"
               >
