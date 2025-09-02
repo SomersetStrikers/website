@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
+    "@types/react": "^19.1.12",
     "checkly": "^4.2.0",
     "cypress": "13.3.2",
     "eslint": "8.51.0",

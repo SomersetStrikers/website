@@ -641,6 +641,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react@npm:^19.1.12":
+  version: 19.1.12
+  resolution: "@types/react@npm:19.1.12"
+  dependencies:
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/e35912b43da0caaab5252444bab87a31ca22950cde2822b3b3dc32e39c2d42dad1a4cf7b5dde9783aa2d007f0b2cba6ab9563fc6d2dbcaaa833b35178118767c
+  languageName: node
+  linkType: hard
+
 "@types/scheduler@npm:*":
   version: 0.16.5
   resolution: "@types/scheduler@npm:0.16.5"
@@ -6402,6 +6411,7 @@ __metadata:
   dependencies:
     "@fortawesome/fontawesome-free": "npm:^6.1.2"
     "@types/node": "npm:^22.15.21"
+    "@types/react": "npm:^19.1.12"
     "@vercel/analytics": "npm:^1.1.1"
     bulma: "npm:^0.9.4"
     checkly: "npm:^4.2.0"
