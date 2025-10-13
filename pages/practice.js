@@ -43,24 +43,10 @@ const Page = () => {
                 </tr>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U10* &amp;  U11</strong>
+                    <strong className="has-no-wrap">U12 &amp; U13</strong>
                   </td>
                   <td>17:00 to 18:00</td>
                   <td>Beaumont Primary School</td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong className="has-no-wrap">U12 &amp; U13</strong>
-                  </td>
-                  <td>16:00 to 17:00</td>
-                  <td>Parel Vallei High School</td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong className="has-no-wrap">U12 &amp; U13</strong>
-                  </td>
-                  <td>17:00 to 18:00</td>
-                  <td>Parel Vallei High School</td>
                 </tr>
               </tbody>
               <tfoot>
@@ -140,27 +126,10 @@ const Page = () => {
                     </a>
                   </span>
                 </span>
-              </li>
-              <li>
-                <span className="icon-text">
-                  <span className="icon is-hidden-mobile">
-                    <i className="fa-regular fa-map"></i>
-                  </span>
-                  <span>
-                    <a
-                      href="https://maps.app.goo.gl/HFeXzz5sK1LApiVa6"
-                      rel="noopener"
-                    >
-                      Parel Vallei High School, Parel Valley Road, Somerset West
-                    </a>
-                  </span>
-                </span>
-              </li>
+              </li>          
             </ul>
             <p className="content is-size-7">
-              ** No spikes at practice at Beaumont Primary School. Bring both
-              spiked and non-spiked shoes for practice at Parel Vallei High
-              School.
+              ** No spikes at practice.
             </p>
             <table className="table is-fullwidth">
               <thead>
