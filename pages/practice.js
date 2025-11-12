@@ -27,6 +27,13 @@ const Page = () => {
             </p>
             <table className="table is-fullwidth">
               <thead>
+                <tr>
+                  <th className="has-background-danger has-text-white has-text-centered" colSpan={3}>
+                    All practice sessions on Friday the 14th of November 2025 will be at Parel Vallei High School. Times remain the same.
+                  </th>
+                </tr>
+              </thead>
+              <thead>
                 <tr className="is-selected">
                   <th className="has-no-wrap">Group</th>
                   <th className="has-no-wrap">Time</th>
@@ -115,6 +122,16 @@ const Page = () => {
               <li>
                 <span className="icon-text">
                   <span className="icon is-hidden-mobile">
+                    <i className="fa-regular fa-circle-check"></i>
+                  </span>
+                  <span>
+                    Park <strong>outside</strong> of the school
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="icon-text">
+                  <span className="icon is-hidden-mobile">
                     <i className="fa-regular fa-map"></i>
                   </span>
                   <span>
@@ -126,7 +143,23 @@ const Page = () => {
                     </a>
                   </span>
                 </span>
-              </li>          
+              </li>
+              <li>
+                <span className="icon-text">
+                  <span className="icon is-hidden-mobile">
+                    <i className="fa-regular fa-map"></i>
+                  </span>
+                  <span>
+                    <a
+                      href="https://goo.gl/maps/YKUCKK47MmZ8eZ7j7"
+                      rel="noopener"
+                    >
+                      Parel Vallei High School, 95 Parel Vallei Road, Somerset
+                      West
+                    </a>
+                  </span>
+                </span>
+              </li>
             </ul>
             <p className="content is-size-7">
               ** No spikes at practice.
