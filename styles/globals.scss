@@ -1,44 +1,33 @@
-$strikers-red: #d51c21;
-$strikers-gold: #c38820;
+@use "@fortawesome/fontawesome-free/scss/fontawesome" as fa;
+@use "@fortawesome/fontawesome-free/scss/regular" as far;
+@use "@fortawesome/fontawesome-free/scss/brands" as fab;
+
 $primary: #39f;
-$tabs-link-active-color: $primary;
-$tabs-link-active-border-bottom-color: $primary;
-$table-row-active-background-color: $primary;
 
-@import "bulma/sass/helpers/color.sass";
+@use "bulma/sass" with (
+  $primary: $primary,
+  $info: #209cee,
+  $link: $primary,
+  $grey-lighter: hsl(0, 0%, 86%),
 
-$link-hover: $info;
+  $tabs-link-active-color: $primary,
+  $tabs-link-active-border-bottom-color: $primary,
+  
+  $table-row-active-background-color: $primary,
+  $table-row-active-color: #fff
+);
 
-@import "bulma/sass/utilities/functions.sass";
-@import "bulma/sass/utilities/initial-variables.sass";
-@import "bulma/sass/utilities/derived-variables.sass";
+:root {
+  --strikers-red: #d51c21;
+  --strikers-gold: #c38820;
+}
 
-@import "bulma/sass/utilities/controls.sass";
-@import "bulma/sass/utilities/extends.sass";
-@import "bulma/sass/helpers/spacing.sass";
-@import "bulma/sass/helpers/typography.sass";
-@import "bulma/sass/helpers/visibility.sass";
-@import "bulma/sass/helpers/flexbox.sass";
-@import "bulma/sass/base/_all.sass";
-@import "bulma/sass/elements/container.sass";
-@import "bulma/sass/elements/box.sass";
-@import "bulma/sass/elements/table.sass";
-@import "bulma/sass/layout/footer.sass";
-@import "bulma/sass/layout/section.sass";
-@import "bulma/sass/elements/title.sass";
-@import "bulma/sass/elements/content.sass";
-@import "bulma/sass/grid/columns.sass";
-@import "bulma/sass/elements/icon.sass";
-@import "bulma/sass/elements/button.sass";
-
-@import "bulma/sass/components/navbar.sass";
-@import "bulma/sass/components/media.sass";
-@import "bulma/sass/components/card.sass";
-@import "bulma/sass/components/tabs.sass";
-
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/regular";
-@import "~@fortawesome/fontawesome-free/scss/brands";
+// ======================================================
+// 3️⃣ Rest of your styles
+// ======================================================
+a:hover {
+  color: var(--bulma-info);
+}
 
 .is-max-width-30em {
   max-width: 30em !important;
@@ -51,7 +40,7 @@ $link-hover: $info;
 }
 
 .is-border-top-grey-lighter {
-  border-top: solid 1px $grey-lighter;
+  border-top: solid 1px var(--bulma-grey-lighter);
 }
 
 .is-max-width-480 {
@@ -63,6 +52,7 @@ $link-hover: $info;
   &.narrow {
     max-width: 40em !important;
   }
+
   &.narrower {
     max-width: 50em !important;
   }
@@ -77,34 +67,43 @@ $link-hover: $info;
   }
 }
 
+// ======================================================
+// 5️⃣ Replace Sass breakpoints with media queries
+// ======================================================
 .is-hidden-mobile {
-  @include until($desktop) {
+  @media screen and (max-width: 1023px) {
     display: none;
   }
 }
 
 .px-1-0-mobile {
-  @include until($desktop) {
+  @media screen and (max-width: 1023px) {
     padding-left: 1em !important;
     padding-right: 0 !important;
   }
 }
 
 .px-0-mobile {
-  @include until($desktop) {
+  @media screen and (max-width: 1023px) {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 }
 
+// ======================================================
+// 6️⃣ Colors and borders
+// ======================================================
 .no-border {
   border-style: none !important;
 }
 
 .is-color-strikers-gold {
-  color: $strikers-gold !important;
+  color: var(--strikers-gold) !important;
 }
 
+// ======================================================
+// 7️⃣ Backgrounds and shadows
+// ======================================================
 .has-background-DSCF8158 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/images/photos/team.webp");
@@ -116,6 +115,9 @@ $link-hover: $info;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+// ======================================================
+// 8️⃣ Width helpers
+// ======================================================
 .is-width-75-percent-and-centered {
   @media screen and (min-width: 796px) {
     width: 75%;
@@ -138,6 +140,9 @@ $link-hover: $info;
   width: 99%;
 }
 
+// ======================================================
+// 9️⃣ Mark labels
+// ======================================================
 .mark-new {
   background-color: #0f0;
   outline: solid 10px #0f0;

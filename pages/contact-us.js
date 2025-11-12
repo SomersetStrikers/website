@@ -21,7 +21,7 @@ const Page = () => {
             <p className="content is-size-4">{t("pages.contact-us.intro")}</p>
             <p className="content">
               <a
-                className="button is-medium is-outlined is-multiline"
+                className="button is-medium is-outlined is-multiline is-dark"
                 href={`mailto:hello@somersetstrikers.co.za`}
                 rel="noopener"
               >
@@ -36,7 +36,7 @@ const Page = () => {
             <div className="columns">
               <div className="column">
                 <a
-                  className="button is-medium is-outlined is-multiline"
+                  className="button is-medium is-outlined is-multiline is-dark"
                   href={`https://www.instagram.com/somersetstrikers/`}
                   rel="noopener"
                 >
@@ -48,7 +48,7 @@ const Page = () => {
               </div>
               <div className="column">
                 <a
-                  className="button is-medium is-outlined is-multiline"
+                  className="button is-medium is-outlined is-multiline is-dark"
                   href={`https://facebook.com/somersetstrikers`}
                   rel="noopener"
                 >
