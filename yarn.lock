@@ -348,10 +348,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-free@npm:^6.7.2":
-  version: 6.7.2
-  resolution: "@fortawesome/fontawesome-free@npm:6.7.2"
-  checksum: 10c0/e27fb8b846f0bcf40c904acc210829a640329fc7b7ec4e42a7c43cb53739ed6052d78df90810f555a5c80bc608fee5a5174db3fa6da617f582d6210009a19278
+"@fortawesome/fontawesome-free@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "@fortawesome/fontawesome-free@npm:7.1.0"
+  checksum: 10c0/3bcaf2c18f3b2ece0fb5640681f13051cb787d686ab444437b3605ba3dca9dce4c7c1f844d94b7ad011482ac20b2b387f3a4c33c2739b50c4425fe529ab7b050
   languageName: node
   linkType: hard
 
@@ -2776,10 +2776,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bulma@npm:^0.9.4":
-  version: 0.9.4
-  resolution: "bulma@npm:0.9.4"
-  checksum: 10c0/ee4db3427f8ba24fa83d112dca87b99ba009ded9b159f72c4c35e04d1d25c636c3275db1268315427226cdd6c27c00e4147d4696b89cf1c4d57945f80dd16331
+"bulma@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "bulma@npm:1.0.4"
+  checksum: 10c0/5a9bf48c6681181fce6fe06d1744272938cc81d4356314d9c4eee3ddbd1fac6ac678cb640b2fe58aec47f907ff273231b246b9cd66d1894b40c3a89a68fb3a68
   languageName: node
   linkType: hard
 
@@ -9102,11 +9102,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "website@workspace:."
   dependencies:
-    "@fortawesome/fontawesome-free": "npm:^6.7.2"
+    "@fortawesome/fontawesome-free": "npm:^7.1.0"
     "@types/node": "npm:^24.10.1"
     "@types/react": "npm:^19.2.3"
     "@vercel/analytics": "npm:^1.5.0"
-    bulma: "npm:^0.9.4"
+    bulma: "npm:^1.0.4"
     checkly: "npm:^6.9.1"
     cypress: "npm:15.6.0"
     eslint: "npm:9.39.1"

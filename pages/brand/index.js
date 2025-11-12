@@ -25,7 +25,7 @@ const Page = () => {
             </p>
             <p className="content has-text-centered">
               <a
-                className="button is-primary"
+                className="button is-primary has-text-white"
                 href="https://drive.google.com/drive/folders/1prDSBBrk-a_aXwPJ_SuvSxCu2D3NRsUn"
                 rel="noopener"
                 target="noopener"

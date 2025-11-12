@@ -4,7 +4,6 @@ import Header from "../components/header.tsx";
 import Navigation from "../components/navigation.tsx";
 import Footer from "../components/footer.tsx";
 import Image from "next/image";
-import React from "react";
 import Link from "next/link";
 
 const Page = () => {
@@ -30,7 +29,7 @@ const Page = () => {
             </p>
             <Link
               href="/join"
-              className="button is-danger is-uppercase is-fullwidth is-large"
+              className="button is-danger is-uppercase is-fullwidth is-large has-text-white"
             >
               {t("home.join")}
             </Link>
@@ -79,7 +78,7 @@ const Page = () => {
             </div>
           </div>
           <div className="columns is-multiline is-centered is-vcentered is-width-40-percent-and-centered">
-          <div className="column has-text-centered ">
+            <div className="column has-text-centered ">
               <a href="https://www.redstor.com/" rel="noreferrer">
                 <Image
                   src="/images/sponsors/redstorlogo.webp"

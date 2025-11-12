@@ -14,7 +14,7 @@ export default function Navigation() {
               <span className="icon">
                 <i className="fa-regular fa-envelope fa-2xl"></i>
               </span>
-              <span className="sr-only">{t("email")}</span>
+              <span className="is-sr-only">{t("email")}</span>
             </span>
           </a>
         </div>
@@ -27,7 +27,7 @@ export default function Navigation() {
               <span className="icon">
                 <i className="fa-brands fa-instagram fa-2xl"></i>
               </span>
-              <span className="sr-only">{t("instagram")}</span>
+              <span className="is-sr-only">{t("instagram")}</span>
             </span>
           </a>
         </div>
@@ -37,7 +37,7 @@ export default function Navigation() {
               <span className="icon">
                 <i className="fa-brands fa-facebook fa-2xl"></i>
               </span>
-              <span className="sr-only">{t("facebook")}</span>
+              <span className="is-sr-only">{t("facebook")}</span>
             </span>
           </a>
         </div>
@@ -72,9 +72,9 @@ export default function Navigation() {
           <Link href="/contact-us">{t("navigation.contact-us")}</Link>
         </div>
       </div>
-      <div className="section">
+      <div className="section has-text-centered">
         <a href="https://newlandscricket.com/youth-cricket/" target="noopener">
-          <figure className="image is-128x128">
+          <figure className="image is-128x128 is-inline-block">
             <Image
               src="/images/wcpa-logo.webp"
               alt={t("wpca-logo.alt")}
