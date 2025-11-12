@@ -38,5 +38,11 @@ next-env.d.ts
 cypress/videos
 cypress/screenshots
 
-.yarn/
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 .yarnrc.yml
