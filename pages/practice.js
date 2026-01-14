@@ -36,7 +36,14 @@ const Page = () => {
               <tbody>
                 <tr>
                   <td>
-                    <strong className="has-no-wrap">U10* &amp;  U11</strong>
+                    <strong className="has-no-wrap">U10*</strong>
+                  </td>
+                  <td>15:00 to 16:00</td>
+                  <td>Beaumont Primary School</td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong className="has-no-wrap">U11</strong>
                   </td>
                   <td>16:00 to 17:00</td>
                   <td>Beaumont Primary School</td>
