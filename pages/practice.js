@@ -27,6 +27,14 @@ const Page = () => {
             </p>
             <table className="table is-fullwidth">
               <thead>
+                <tr className="has-background-warning has-text-weight-bold">
+                  <td colSpan={1}>
+                    First Practice
+                  </td>
+                  <td colSpan={2}>
+                    Friday, 23 February 2026
+                  </td>
+                </tr>
                 <tr className="is-selected">
                   <th className="has-no-wrap">Group</th>
                   <th className="has-no-wrap">Time</th>
