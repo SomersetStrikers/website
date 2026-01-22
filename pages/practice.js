@@ -32,7 +32,7 @@ const Page = () => {
                     First Practice
                   </td>
                   <td colSpan={2}>
-                    Friday, 23 February 2026
+                    Friday, 23 January 2026
                   </td>
                 </tr>
                 <tr className="is-selected">
