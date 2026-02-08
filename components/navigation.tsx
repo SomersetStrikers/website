@@ -49,6 +49,9 @@ export default function Navigation() {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
+                <Link href="/register" target="_blank" className="button is-dark">
+                  <strong>{t("navigation.register")}</strong>
+                </Link>
                 <Link href="/contact-us" className="button is-dark is-outlined">
                   <strong>{t("navigation.contact-us")}</strong>
                 </Link>
