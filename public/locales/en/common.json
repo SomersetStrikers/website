@@ -32,7 +32,8 @@
         "policies": "Policies & Processes",
         "home": "Home",
         "return_home": "Return Home",
-        "fixtures": "Fixtures"
+        "fixtures": "Fixtures",
+        "register": "Register"
     },
     "pages": {
         "404": {

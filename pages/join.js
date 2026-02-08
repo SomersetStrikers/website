@@ -21,17 +21,7 @@ const Page = () => {
               {t("pages.join.title")}
             </h1>
             <p className="content is-size-4  has-text-centered">
-              Joining Somerset Strikers is easy.{" "}
-              <a
-                href="/register"
-                rel="noreferrer"
-                className="has-text-weight-bold is-underlined"
-                target="_blank"
-              >
-                Register
-              </a>{" "}
-              and then attend one of our practice sessions and see what Somerset
-              Strikers is all about.
+              Joining Somerset Strikers is easy. Register and then attend one of our practice sessions and see what Somerset Strikers is all about.
             </p>
             <p className="content">
               The cricket club season runs from{" "}
@@ -41,7 +31,7 @@ const Page = () => {
             </p>
             <table className="table is-fullwidth is-striped">
               <thead>
-                <tr className="is-selected">
+                <tr>
                   <th className="has-no-wrap">Type</th>
                   <th className="has-no-wrap">Fee</th>
                 </tr>
@@ -82,14 +72,24 @@ const Page = () => {
                 </tr>
               </tbody>
             </table>
+            <p className="content">
+              You may pay the full fee, or half by <strong>October 31</strong>{" "}
+              and the remaining amount by <strong>January 31</strong>.
+            </p>
+            <p className="has-text-centered">
+              <a
+                href="/register"
+                rel="noreferrer"
+                className="button is-medium  has-text-white is-primary is-fullwidth"
+                target="_blank"
+              >
+                Register
+              </a>{" "}
+            </p>
             <p className="content is-size-7">
               * Note that your Somerset Strikers fee only covers being eligible
               for selection for tournaments. Any tournament fees are additional
               and for your account.
-            </p>
-            <p className="content">
-              You may pay the full fee, or half by <strong>October 31</strong>{" "}
-              and the remaining amount by <strong>January 31</strong>.
             </p>
           </section>
         </div>
