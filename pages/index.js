@@ -1,5 +1,5 @@
-import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next/pages";
+import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
 import Header from "../components/header.tsx";
 import Navigation from "../components/navigation.tsx";
 import Footer from "../components/footer.tsx";
