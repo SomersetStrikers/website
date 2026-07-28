@@ -1,4 +1,4 @@
-import { appWithTranslation } from "next-i18next";
+import { appWithTranslation } from "next-i18next/pages";
 import { Analytics } from "@vercel/analytics/react";
 import "../styles/globals.scss";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "next-i18next/pages";
 
 export default function Header() {
   const { t } = useTranslation();
