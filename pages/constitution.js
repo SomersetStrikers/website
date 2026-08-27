@@ -543,9 +543,9 @@ const Page = () => {
             </p>
 
             <p className="has-text-centered">
-              Committee: Jimmy Sounes (Chairperson), Paul Watson (Vice
+              Committee: Jimmy Sounes (Chairperson), Stefan Boshoff (Vice
               Chairperson), Abby Hunter (Honorary Secretary), Leonard
-              Willemse (Honorary Treasurer), Stefan Boshoff (Club Captain)
+              Willemse (Honorary Treasurer), Mick Craven (Club Captain)
             </p>
           </section>
         </div>
