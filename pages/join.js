@@ -3,9 +3,7 @@ import { serverSideTranslations } from "next-i18next/pages/serverSideTranslation
 import Header from "../components/header.tsx";
 import Navigation from "../components/navigation.tsx";
 import Footer from "../components/footer.tsx";
-import React from "react";
 import Link from "next/link";
-import { Trans } from "react-i18next";
 
 const Page = () => {
   const { t } = useTranslation();
@@ -49,11 +47,11 @@ const Page = () => {
                     </small>
                   </td>
                   <td>
-                    <strong>R1,400</strong>
+                    <strong>R1,450</strong>
                     <br />
-                    <small className="has-no-wrap">R700 by October 31</small>
+                    <small className="has-no-wrap">R725 by October 31</small>
                     <br />
-                    <small className="has-no-wrap">R700 by January 31</small>
+                    <small className="has-no-wrap">R725 by January 31</small>
                   </td>
                 </tr>
                 <tr>
@@ -63,11 +61,11 @@ const Page = () => {
                     <small>Practice, Internal Matches</small>
                   </td>
                   <td>
-                    <strong>R750</strong>
+                    <strong>R800</strong>
                     <br />
-                    <small className="has-no-wrap">R375 by October 31</small>
+                    <small className="has-no-wrap">R400 by October 31</small>
                     <br />
-                    <small className="has-no-wrap">R375 by January 31</small>
+                    <small className="has-no-wrap">R400 by January 31</small>
                   </td>
                 </tr>
               </tbody>
